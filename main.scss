@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url(/images/backgrad.png) no-repeat center center fixed;
+  background-size: cover;
+}
+
+main {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+// style of the text.
+.des {
+  font-family: 'Playfair Display', serif;
+  position: absolute;
+  margin-bottom: 20rem;
+  color: #fff;
+  font-size: 2.5rem;
+}
+// nav flex container for the increaser,decreaser and the value.
+.container {
+  align-items: center;
+  width: 40vw;
+  flex-grow: 0;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  text-align: center;
+}
+// styles for the increase button
+.increase {
+  color: #fff;
+  font-weight: 900;
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 6rem;
+  &:hover {
+    color: rgba(10, 233, 196, 0.966);
+    cursor: pointer;
+  }
+}
+// styles for the decrease button
+.decrease {
+  color: #fff;
+  font-weight: 900;
+  font-size: 6rem;
+  &:hover {
+    cursor: pointer;
+    color: rgba(10, 233, 196, 0.966);
+  }
+}
+// styles for the value and also position so the element don't.
+.counter {
+  color: #fff;
+  font-size: 8rem;
+  opacity: 1;
+  position: absolute;
+}

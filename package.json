@@ -1,0 +1,11 @@
+{
+  "name": "counter",
+  "version": "1.0.0",
+  "description": "A simple counter Project",
+  "main": "script.js",
+  "scripts": {
+    "sass": "sass --watch main.scss:style.css"
+  },
+  "author": "Matheus Minatti",
+  "license": "ISC"
+}
